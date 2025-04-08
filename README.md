@@ -1,2 +1,30 @@
-# Vehicle-Feature-Testing-Project-Robot-Framework-
-This project automates the functional testing of vehicle features using the Robot Framework. It's designed for scalable, modular, and data-driven test execution in a vehicle management ecosystem — particularly relevant for automotive companies
+# Vehicle Feature Testing using Robot Framework
+
+## Description
+Automated test suite for vehicle feature validation using Robot Framework. Tests cover core features such as engine start/stop, brake response, light indicators, and more.
+
+## Tech Stack
+- Robot Framework
+- SeleniumLibrary
+- Python
+- Jenkins (for CI)
+
+## Features Tested
+- Engine Start/Stop Feature
+- Brake Safety Feature
+- Indicator Light Controls
+- Headlamp Automation
+
+## How to Run
+```bash
+pip install -r requirements.txt
+robot tests/
+```
+
+## Folder Structure
+- `tests/` - Robot test cases
+- `resources/` - Reusable keywords and variables
+- `results/` - Test reports and logs
+
+## Author
+Ruchita Lawand
